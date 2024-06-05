@@ -12,6 +12,7 @@ public class Account {
     @Id
     @GeneratedValue
     private Long id;
+   // @Enumerated(EnumType.STRING)
     private Role role;
     private String name;
     @Column(unique = true)
